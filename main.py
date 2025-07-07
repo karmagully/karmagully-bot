@@ -268,6 +268,6 @@ async def handle_admin_decision(callback_query: types.CallbackQuery):
         await bot.send_message(ADMIN_ID, "✏️ Please enter the reason for declining this order.")
 
 # === START BOT ===
-if name == 'main':
+if _name_ == '_main_':
     keep_alive()
     executor.start_polling(dp, skip_updates=True)
